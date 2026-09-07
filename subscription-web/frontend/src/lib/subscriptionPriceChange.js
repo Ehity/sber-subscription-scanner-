@@ -73,3 +73,5 @@ export function detectSubscriptionPriceChange(payments) {
     changedAt: sorted[newLevel.startIndex].dateKey,
   };
 }
+
+
