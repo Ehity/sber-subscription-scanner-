@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node / фронтенд
+node_modules/
+dist/
+
+# Локальные артефакты и секреты
+*.log
+*.pid
+*.db
+.env
+.env.*
+
+# Черновики
+_build/
+.zcode/
