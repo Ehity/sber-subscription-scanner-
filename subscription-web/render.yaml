@@ -1,5 +1,5 @@
 # Render Blueprint: постоянный публичный хостинг сканера.
-# Деплой в один клик: https://render.com/deploy?repo=https://github.com/Ehity/5
+# Деплой в один клик: https://render.com/deploy?repo=https://github.com/Ehity/sber-subscription-scanner-
 services:
   - type: web
     name: subscanner
