@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#0B0F1A] text-slate-200 antialiased;
+}
+
+/* скроллбар в тёмном стиле */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700 rounded-full;
+}
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+.sber-gradient {
+  background: linear-gradient(110deg, #21a038 0%, #17b26a 45%, #0fa7df 100%);
+}
+
+.card {
+  @apply bg-slate-900/70 border border-slate-800 rounded-2xl backdrop-blur;
+}
