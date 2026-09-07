@@ -1,0 +1,9 @@
+# Render Blueprint: постоянный публичный хостинг сканера.
+# Деплой в один клик: https://render.com/deploy?repo=https://github.com/Ehity/5
+services:
+  - type: web
+    name: subscanner
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    autoDeploy: true
