@@ -1,6 +1,6 @@
 # Сбер.Сканер Подписок — веб-сервис (MVP)
 
-> **🌐 Открыть сканер онлайн (постоянная ссылка):** <https://ehity.github.io/5/>
+> **🌐 Открыть сканер онлайн (постоянная ссылка):** <https://ehity.github.io/sber-subscription-scanner-/>
 
 Загружаете CSV или PDF-выписку — сервис находит
 регулярные списания, считает потенциальную экономию, помечает подписки,
@@ -9,7 +9,7 @@ deep-links на отмену и генерирует готовое заявле
 
 ## Как открыть сканер
 
-**Способ 1 — онлайн, ничего не устанавливая:** <https://ehity.github.io/5/>
+**Способ 1 — онлайн, ничего не устанавливая:** <https://ehity.github.io/sber-subscription-scanner-/>
 
 Приложение работает целиком в браузере: CSV-выписка анализируется прямо на
 странице (тот же алгоритм, портированный на JS). Есть встроенный генератор
@@ -36,7 +36,7 @@ ssh -p 443 -R0:localhost:8000 free.pinggy.io
 
 **Способ 4 — постоянный серверный хостинг (кнопкой):**
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Ehity/5)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Ehity/sber-subscription-scanner-)
 
 Клик → войти через GitHub → Render соберёт Docker-образ и даст постоянную
 публичную ссылку (бесплатный тариф, сервис «засыпает» после 15 минут
